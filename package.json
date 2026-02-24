@@ -1,0 +1,16 @@
+{
+  "name": "gameofwar",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Martina Papp",
+  "description": "A Deck of Cards API-powered game that tracks scores, manages deck state across sessions, and determines winners using vanilla JavaScript.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
