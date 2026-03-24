@@ -5,6 +5,8 @@
 
 This is a project I built to practice working with APIs. I learned how to manage state across multiple fetch calls and how to implement game logic based on data returned from a server.
 
+*[link here](https://game-of-war-deck.netlify.app/)*
+
 ## Index
 
 - [About](#about)
