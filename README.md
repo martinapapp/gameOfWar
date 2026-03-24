@@ -1,7 +1,6 @@
 # Game of War
 
 ![JS Badge](https://img.shields.io/badge/Learning-JavaScript-yellow)
-![API Badge](https://img.shields.io/badge/API-Scrimba-blue)
 
 This is a project I built to practice working with APIs. I learned how to manage state across multiple fetch calls and how to implement game logic based on data returned from a server.
 
@@ -26,6 +25,7 @@ Game of War is a digital card game that pits the user against a computer. The ma
 - Handle game-over states by disabling buttons when the API reports zero cards remaining.
 
 It's currently hooked up to the Scrimba Deck of Cards API to handle shuffling and drawing.
+*updated with deckofcardsapi*
 
 
 ## Usage
@@ -69,9 +69,6 @@ The app uses a global deckId variable to maintain the session. I created a helpe
 ## Contribution
 1. Found a bug? Open an issue and I'll try to fix it.
 2. Advice? If you know a cleaner way to handle the tie-breaker ("War") logic, let me know!
-
-### Guideline
-I'm trying to keep this as "Vanilla" as possible—no frameworks allowed yet! I want to really understand the basics here.
 
 ## License
 Feel free to use this for your own practice!  **MIT**  License.
