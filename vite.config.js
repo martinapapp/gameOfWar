@@ -1,7 +1,11 @@
 import {defineConfig} from "vite"
 
 export default defineConfig({
-	plugins: [
-		
-	]
+	plugins: [],
+	server: {
+    	watch: {
+      		usePolling: true,
+			interval: 100,
+    	}
+  	}
 })
