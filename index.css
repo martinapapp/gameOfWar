@@ -2,8 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     background-image: url("img/table.png");
+    background-size: cover;
     font-family: "Exo 2", sans-serif;
-    height: 100vh;
 }
 
 body {
@@ -28,7 +28,10 @@ button#new-deck {
 button.draw {
     font-size: 1.2em;
     padding: 5px;
-    align-self: stretch;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 div.card-slot {
