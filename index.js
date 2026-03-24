@@ -16,7 +16,7 @@ const myScoreEl = document.getElementById("my-score")
  */
 
 async function handleClick() {
-    const res = await fetch("https://apis.scrimba.com/deckofcards/api/deck/new/shuffle/")
+    const res = await fetch("https://deckofcardsapi.com/api/deck/new/shuffle/")
     const data = await res.json()
     remainingText.textContent = `Remaining cards: ${data.remaining}`
     deckId = data.deck_id
@@ -26,7 +26,7 @@ async function handleClick() {
 newDeckBtn.addEventListener("click", handleClick)
 
 drawCardBtn.addEventListener("click", async () => {
-    const res = await fetch(`https://apis.scrimba.com/deckofcards/api/deck/${deckId}/draw/?count=2`)
+    const res = await fetch(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=2`)
     const data = await res.json()
     remainingText.textContent = `Remaining cards: ${data.remaining}`
     cardsContainer.children[0].innerHTML = `
